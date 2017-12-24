@@ -13,3 +13,15 @@
 
 .card{
 }
+
+.hm-zoom{
+    zoom: 1;
+}
+
+.hoverable{
+}
+
+.div.img-fluid{
+    width: 20px;
+    height:20px;
+        }
