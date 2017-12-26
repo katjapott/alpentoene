@@ -2,10 +2,6 @@
     background: purple;
 }
 
-.excerpt{
-    padding-left: inherit;
-    padding-right: inherit;
-}
 
 .navbar-toggler-icon{
 
@@ -25,3 +21,10 @@
     width: 20px;
     height:20px;
         }
+
+
+
+.table{
+    margin: 20px;
+}
+
