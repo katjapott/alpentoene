@@ -4,8 +4,11 @@ $(document).ready(function() {
     var active2 = false;
     var active3 = false;
     var active4 = false;
+    var mask2 = false;
 
     $('.parent2').on('mousedown touchstart', function() {
+
+
 
         if (!active1) $(this).find('.test1').css({'background-color': 'transparent', 'transform': 'translate(0px,125px)'});
         else $(this).find('.test1').css({'background-color': 'transparent', 'transform': 'translate(-10px,-10px)'});
@@ -22,3 +25,11 @@ $(document).ready(function() {
 
     });
 });
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
