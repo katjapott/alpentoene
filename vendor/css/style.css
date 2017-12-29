@@ -63,9 +63,18 @@ h1 {
 }
 
 /*TODO remove lines above row*/
-/*TODO remove first column*/
-.table{
-    margin: 20px;
+.table td{
+    padding: 5px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: transparent;
 }
 
 
+.w-auto {
+    width: auto;
+}
+
+.table{
+    spacing: 60px;
+}
