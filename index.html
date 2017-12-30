@@ -21,6 +21,17 @@
       <link rel="stylesheet" type="text/css" href="vendor/css/menu.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+      <style>
+          #text{
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              font-size: 50px;
+              color: white;
+              transform: translate(-50%,-50%);
+              -ms-transform: translate(-50%,-50%);
+          }
+      </style>
 
   </head>
 
@@ -28,54 +39,48 @@
 
 
   <div class="parent2">
+    <ul>
       <li class="nav-item active">
-          <a class="test1" href="index.html">Home</span></a>
+          <a class="test1" href="index.html">Home</a>
       </li>
       <li class="nav-item active">
-          <a class="test2" href="Sponsoren.html">Sponsoren</span></a>
-      </li>
-
-      <li class="nav-item active">
-          <a class="test3" href="Infos.html">Infos</span></a>
+          <a class="test2" href="Sponsoren.html">Sponsoren</a>
       </li>
 
       <li class="nav-item active">
-          <a class="test4" href="Fotos.html">Fotos</span></a>
+          <a class="test3" href="Infos.html">Infos</a>
       </li>
-      <div class="mask2", onclick="on()"><i class=""></i>Menu</div>
+
+      <li class="nav-item active">
+          <a class="test4" href="Fotos.html">Fotos</a>
+      </li>
+    </ul>
+
+      <div class="mask2" onclick="on()"><i class=""></i>Menu</div>
 
       <!--TODO MAKE MENU BUTTON RESPONSIVE-->
   </div>
 
-  <style>
-      #text{
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          font-size: 50px;
-          color: white;
-          transform: translate(-50%,-50%);
-          -ms-transform: translate(-50%,-50%);
-      }
-  </style>
 
   <div id="overlay">
 
       <div class="parent2">
+          <ul>
           <li class="nav-item active">
-              <a class="test1" href="index.html">Home</span></a>
+              <a class="test1" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
-              <a class="test2" href="Sponsoren.html">Sponsoren</span></a>
-          </li>
-
-          <li class="nav-item active">
-              <a class="test3" href="Infos.html">Infos</span></a>
+              <a class="test2" href="Sponsoren.html">Sponsoren</a>
           </li>
 
           <li class="nav-item active">
-              <a class="test4" href="Fotos.html">Fotos</span></a>
+              <a class="test3" href="Infos.html">Infos</a>
           </li>
+
+          <li class="nav-item active">
+              <a class="test4" href="Fotos.html">Fotos</a>
+          </li>
+          </ul>
             <div class="mask2"><i class=""></i>Menu</div>
         </div>
 
@@ -90,13 +95,15 @@
       <div class="row">
           <div class="col-md-12">
               <!--Featured image-->
+
               <div class="card card-cascade wider reverse">
                   <div class="view overlay hm-white-slight">
-                      <img src="logo_gr_2017.jpg" alt="hello" class="img-fluid" alt="Responsive image">
+
+                      <img src="assests/logo_gr_2017.jpg" alt="hello" class="img-fluid" alt="Responsive image">
                       <a>
                           <div class=""></div>
                       </a>
-                  </div>
+                    </div>
 
                   <!--Post data-->
                   <div class="card-body text-center">
