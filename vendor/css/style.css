@@ -4,22 +4,34 @@
 @media screen and (max-width: 767px) {
     body{font-size: 10px;}
     h1 { font-size: 25px; }
-    h2 { font-size: 15px; }
+    h2 { font-size: 18px; }
     h3 { font-size: 12px; }
     h4 { font-size: 12px; }
+    caption {font-size: 18px }
     p {  font-size: 12px; }
+    th { font-size: 14px; }
+    td { font-size: 12px; }
+    table{margin-left: 10%;
+        margin-right: 10%;}
     .box {padding: 20px;}
+
     #main-title{font-size: 25px; }
     #main-para{font-size: 15px; }
 }
 /* sm */
 @media screen and (min-width: 768px) {
     h1 { font-size: 30px; }
-    h2 { font-size: 20px; }
+    h2 { font-size: 24px; }
     h3 { font-size: 15px; }
     h4 { font-size: 15px; }
+    caption {font-size: 24px }
     p {  font-size: 15px; }
+    th { font-size: 18px; }
+    td { font-size: 15px; }
+    table{margin-left: 20%;
+        margin-right: 20%;}
     .box {padding: 40px;}
+
     #main-title{font-size: 35px; }
     #main-para{font-size: 20px; }
 }
@@ -28,11 +40,17 @@
 /* md */
 @media screen and (min-width: 992px) {
     h1 { font-size: 30px; }
-    h2 { font-size: 20px; }
-    h3 { font-size: 15px; }
-    h4 { font-size: 15px; }
-    p {  font-size: 15px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 20px; }
+    h4 { font-size: 20px; }
+    caption {font-size: 24px }
+    p {  font-size: 18px; }
+    th { font-size: 18px; }
+    td { font-size: 15px; }
+    table{margin-left: 20%;
+        margin-right: 20%;}
     .box {padding: 40px;}
+
     #main-title{font-size: 35px; }
     #main-para{font-size: 20px; }
 
@@ -45,6 +63,22 @@ h1 {
 
     margin-top: 30px;
 }
+
+h2 {
+    color: purple;
+    font-weight: bold;
+
+    margin-top: 24px;
+}
+
+caption{
+    display: table-caption;
+    text-align: left;
+    color: purple;
+    font-weight: bold;
+    caption-side: top;
+}
+
 
 
 
@@ -64,21 +98,57 @@ h1 {
 }
 
 /*TODO remove lines above row*/
-.table td{
-    padding: 5px;
-    padding-left: 0px;
-    border-top-width: 0px;
-    border-top-style: solid;
-    border-top-color: transparent;
-}
 
 
 .w-auto {
     width: auto;
 }
 
-.table{
+
+
+ .table{
+    width: auto;
+
+     align-content: center;
+
+    background-color: #f0f0f0;
+
+    margin-top: 30px;
+
+    padding: 10px;
+    border-spacing: 5px;
+    border-radius: 20px;
+
+    box-shadow: 0 1px 3px #888888;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
 }
+
+table:hover{
+    box-shadow: 0 14px 28px #888888;
+}
+
+
+
+.table th {
+    width: auto;
+    border-top: none;
+    height: 50px;
+    text-align: center;
+}
+
+
+.table td{
+    width: auto;
+    border-top: none;
+    height: 35px;
+    text-align: center;
+
+}
+
+.table-responsive{
+}
+
 
 .col { flex: 1 0 50%; }
 
