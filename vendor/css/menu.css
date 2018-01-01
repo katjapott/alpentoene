@@ -94,13 +94,14 @@
         left: 15px;
         width: 100px;
         height: 100px;
-        background: green;
+        background: #C6B713;
         border-radius: 50%;
-        position: absolute;
+        position: relative;
         z-index: 21;
         color: white;
         text-align: center;
         line-height: 120px;
         cursor: pointer;
-        position: fixed;
+        display: inline-block;
+
     }

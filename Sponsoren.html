@@ -10,10 +10,7 @@
     <title>Sponsoren</title>
 
     <!-- Bootstrap core CSS -->
-    <script src="vendor/js/jquery.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
-    <script src="vendor/js/bootstrap-material-design.min.js"></script>
-    <script src="vendor/js/menu.js"></script>
+
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap-material-design.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/css/style.css">
@@ -21,11 +18,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+    <style>
+        #text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 50px;
+            color: white;
+            transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+        }
+    </style>
+
 </head>
 
 <body>
 
 <div class="parent2">
+    <ul>
     <li class="nav-item active">
         <a class="test1" href="index.html">Home</span></a>
     </li>
@@ -40,24 +50,17 @@
     <li class="nav-item active">
         <a class="test4" href="Fotos.html">Fotos</span></a>
     </li>
+
+    </ul>
     <div class="mask2", onclick="on()"><i class=""></i>Menu</div>
 </div>
 
-<style>
-    #text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-size: 50px;
-        color: white;
-        transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-    }
-</style>
 
 <div id="overlay">
 
     <div class="parent2">
+
+        <ul>
         <li class="nav-item active">
             <a class="test1" href="index.html">Home</span></a>
         </li>
@@ -73,6 +76,8 @@
             <a class="test4" href="Fotos.html">Fotos</span></a>
         </li>
         <div class="mask2"><i class=""></i>Menu</div>
+
+        </ul>
     </div>
 
 </div>
@@ -94,10 +99,10 @@
                 </div>
 
                 <!--Post data-->
-                <div class="card-body text-center">
-                    <h2>
+                <div class="card-body text-left">
+                    <h1>
                         <a class="font-bold">Sponsoren, Gönner & Partner</a>
-                    </h2>
+                    </h1>
 
 
                 </div>
@@ -108,7 +113,7 @@
 
 
 
-            <h1>Sponsoren</h1>
+            <h2>Sponsoren</h2>
 
 
             <!--TODO make all pictures of Sonsoren same size and do "freistellen"-->
@@ -143,12 +148,13 @@
             </div>
             <!-- Grid row -->
 
-            <h1>Gönner, Stiftungen & Öffentliche Hand</h1>
+            <h2>Gönner, Stiftungen & Öffentliche Hand</h2>
 
 
+   <!-- TODO: Config Table like in Index.html.-->
 
             <table class="table table-responsive">
-                <table class="table">
+
                     <tbody>
                     <tr>
 
@@ -173,9 +179,9 @@
                     </tr>
                     </tbody>
                 </table>
-            </table>
 
-            <h1>Partner</h1>
+
+            <h2>Partner</h2>
 
             </div>
 
@@ -183,8 +189,12 @@
         </div>
     </div>
 
-
 </section>
+
+<script src="vendor/js/jquery.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/bootstrap-material-design.min.js"></script>
+<script src="vendor/js/menu.js"></script>
 <!--Section: Blog v.4-->
 </body>
 </html>
