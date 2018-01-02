@@ -96,7 +96,7 @@
         height: 100px;
         background: #C6B713;
         border-radius: 50%;
-        position: relative;
+        position: fixed;
         z-index: 21;
         color: white;
         text-align: center;
