@@ -1,23 +1,22 @@
 
-/*TODO adjust hover color and no underline when hover*/
-
-    #overlay {
-        position: fixed; /* Sit on top of the page content */
-        display: none; /* Hidden by default */
-        width: 100%; /* Full width (cover the whole page) */
-        height: 100%; /* Full height (cover the whole page) */
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-        cursor: pointer; /* Add a pointer on hover */
-    }
+/* TODO: no underline when hover and make button responsive and overlay is commented*/
+    /*#overlay {*/
+        /*position: fixed; !* Sit on top of the page content *!*/
+        /*display: none; !* Hidden by default *!*/
+        /*width: 100%; !* Full width (cover the whole page) *!*/
+        /*height: 100%; !* Full height (cover the whole page) *!*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*right: 0;*/
+        /*bottom: 0;*/
+        /*background-color: rgba(0,0,0,0.5); !* Black background with opacity *!*/
+        /*z-index: 2; !* Specify a stack order in case you're using a different order for other elements *!*/
+        /*cursor: pointer; !* Add a pointer on hover *!*/
+    /*}*/
 
     .parent2 {
-        top: 15px;
-        left: 15px;
+        top: 20px;
+        left: 50px;
         position: absolute;
         display: block;
         width: 100px;
@@ -25,9 +24,9 @@
         background-color: transparent;
         border-radius: 50%;
         z-index: 20;
-        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
     }
 
     .test1 {
@@ -43,7 +42,7 @@
         left: 25%;
         z-index: 19;
         transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        position: absolute;
+
     }
 
     .test2 {
@@ -96,12 +95,14 @@
         height: 100px;
         background: #C6B713;
         border-radius: 50%;
-        position: absolute;
+
         z-index: 21;
         color: white;
         text-align: center;
         line-height: 120px;
         cursor: pointer;
-        display: inline-block;
+        position: absolute;
+
+
 
     }
