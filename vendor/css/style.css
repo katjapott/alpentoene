@@ -37,7 +37,7 @@
 
 /* md */
 @media screen and (min-width: 992px) {
-    h1 { font-size: 80px; }
+    h1 { font-size: 60px; }
     h2 { font-size: 24px; }
     h3 { font-size: 20px; }
     h4 { font-size: 20px; }
@@ -63,7 +63,6 @@ h1 {
 h2 {
     color: purple;
     font-weight: bold;
-
     margin-top: 18px;
 }
 
@@ -73,19 +72,14 @@ caption{
     color: purple;
     font-weight: bold;
     caption-side: top;
+    padding-left: 10px;
 }
 
-
-
-
-.card{
-
-}
+.card{  }
 
 .titleimage{
     box-shadow: 0 12px 15px 0 #888888;
 }
-
 
 .z-depth-1{
     box-shadow: 0 1px 3px #888888;
@@ -98,54 +92,34 @@ caption{
 .hoverable {
     box-shadow: 0 1px 3px #888888;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
-.hoverable:hover {
 
+.hoverable:hover {
     box-shadow: 0 14px 28px #888888;
 }
-
-
-/*TODO remove lines above row*/
-
 
 .w-auto {
     width: auto;
 }
 
-
-
- .table {
-
+.table {
      align-content: center;
-
      background-color: #f0f0f0;
-
      margin-top: 30px;
-
      border-spacing: 5px;
      border-radius: 20px;
  }
 
-
-
-
 .table th {
-
     border-top: none;
     height: 50px;
     text-align: center;
 }
 
-
 .table td{
-
     border-top: none;
     height: 35px;
     text-align: center;
-
 }
-
-
-
 
 .col {  }
 
