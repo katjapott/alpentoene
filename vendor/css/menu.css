@@ -9,7 +9,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        background-color: rgba(170,170,167,0.9); /* Black background with opacity */
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer; /* Add a pointer on hover */
     }
@@ -24,9 +24,9 @@
         background-color: transparent;
         border-radius: 50%;
         z-index: 20;
-        -webkit-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.5);
 
     }
 
