@@ -123,3 +123,10 @@ caption{
 
 .col {  }
 
+.navactive{
+    color: black;
+}
+
+.navactive:hover{
+    color: green;
+}
