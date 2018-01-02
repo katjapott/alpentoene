@@ -18,7 +18,7 @@
     .parent2 {
         top: 15px;
         left: 15px;
-        position: fixed;
+        position: absolute;
         display: block;
         width: 100px;
         height: 100px;
@@ -90,13 +90,13 @@
     }
 
     .mask2 {
-        top: 15px;
-        left: 15px;
+        top: 0px;
+        left: 0px;
         width: 100px;
         height: 100px;
         background: #C6B713;
         border-radius: 50%;
-        position: fixed;
+        position: absolute;
         z-index: 21;
         color: white;
         text-align: center;
