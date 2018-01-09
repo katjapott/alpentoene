@@ -62,12 +62,14 @@ h1 {
     font-weight: bold;
     float: left;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: purple;
     font-weight: bold;
     margin-top: 18px;
+    margin-bottom: 15px;
 }
 
 caption{
@@ -87,7 +89,7 @@ caption{
 }
 
 .z-depth-1{
-    box-shadow: 0 1px 3px #888888;
+    box-shadow: 0 2px 6px #888888;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
@@ -95,7 +97,7 @@ caption{
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
 
 .hoverable {
-    box-shadow: 0 1px 3px #888888;
+    box-shadow: 0 4px 10px #888888;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
 
 .hoverable:hover {
