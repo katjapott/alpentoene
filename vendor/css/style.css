@@ -58,7 +58,7 @@
 }
 
 h1 {
-    color: purple;
+    color: #773A84;
     font-weight: bold;
     float: left;
     margin-top: 20px;
@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-    color: purple;
+    color: #773A84;
     font-weight: bold;
     margin-top: 18px;
     margin-bottom: 15px;
@@ -75,7 +75,7 @@ h2 {
 caption{
     display: table-caption;
     text-align: left;
-    color: purple;
+    color: #773A84;
     font-weight: bold;
     caption-side: top;
     padding-left: 10px;
@@ -88,16 +88,9 @@ caption{
 
 }
 
-.z-depth-1{
-    box-shadow: 0 2px 6px #888888;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.z-depth-3 {
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
 
 .hoverable {
-    box-shadow: 0 4px 10px #888888;
+    box-shadow: 0 6px 10px #9D9C94;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
 
 .hoverable:hover {
@@ -108,24 +101,34 @@ caption{
     width: auto;
 }
 
+.tickettext{
+    text-align: center;
+
+}
+
 .table {
      align-content: center;
-     background-color: #f0f0f0;
+     background-color: whitesmoke;
+
+
      margin-top: 30px;
      border-spacing: 5px;
-     border-radius: 20px;
+     border-radius: 10px;
+
  }
 
 .table th {
     border-top: none;
     height: 50px;
-    text-align: center;
+    text-align: left;
+    color: #9D9C94;
 }
 
 .table td{
     border-top: none;
     height: 35px;
-    text-align: center;
+    text-align: left;
+    color: #332936
 }
 
 .col {  }
@@ -136,4 +139,40 @@ caption{
 
 .navactive:hover{
     color: #C6B713;
+}
+
+button{
+    background-color: #C6B713;
+    padding: 12px 28px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+p{
+    color: #332936;
+}
+.shadow
+{
+    position: relative;
+}
+.shadow:before, .shadow:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+.shadow:after
+{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
 }
