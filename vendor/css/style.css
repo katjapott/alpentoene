@@ -3,7 +3,9 @@
 
 @media screen and (max-width: 767px) {
     body{font-size: 10px;}
-    h1 { font-size: 25px; }
+    h1 { font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;}
     h2 { font-size: 18px; }
     h3 { font-size: 12px; }
     h4 { font-size: 12px; }
@@ -12,7 +14,7 @@
     th { font-size: 14px; }
     td { font-size: 12px; }
     a{font-size: 10px}
-
+    .table{margin-top: 10px;}
     .box {padding: 20px;}
 
     #main-title{font-size: 25px; }
@@ -20,7 +22,9 @@
 }
 /* sm */
 @media screen and (min-width: 768px) {
-    h1 { font-size: 60px; }
+    h1 { font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;}
     h2 { font-size: 24px; }
     h3 { font-size: 15px; }
     h4 { font-size: 15px; }
@@ -30,6 +34,7 @@
     td { font-size: 15px; }
     a{font-size: 14px}
 
+    .table{margin-top: 10px;}
 
     .box {padding: 40px;}
 
@@ -40,7 +45,9 @@
 
 /* md */
 @media screen and (min-width: 992px) {
-    h1 { font-size: 60px; }
+    h1 { font-size: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;}
     h2 { font-size: 24px; }
     h3 { font-size: 20px; }
     h4 { font-size: 20px; }
@@ -50,6 +57,7 @@
     td { font-size: 15px; }
     .box {padding: 40px;}
     a{font-size: 15px}
+    .table{margin-top: 20px;}
 
     #main-title{font-size: 35px; }
     #main-para{font-size: 20px; }
@@ -61,8 +69,6 @@ h1 {
     color: #773A84;
     font-weight: bold;
     float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -108,10 +114,8 @@ caption{
 
 .table {
      align-content: center;
-     background-color: whitesmoke;
+     background-color: #f0f0f0;
 
-
-     margin-top: 30px;
      border-spacing: 5px;
      border-radius: 10px;
 
