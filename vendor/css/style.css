@@ -14,6 +14,7 @@
     th { font-size: 14px; }
     td { font-size: 12px; }
     a{font-size: 10px}
+    .navactive{font-size: 12px}
     .table{margin-top: 10px;}
     .box {padding: 20px;}
 
@@ -32,10 +33,9 @@
     p {  font-size: 15px; }
     th { font-size: 18px; }
     td { font-size: 15px; }
-    a{font-size: 14px}
-
+    a{font-size: 13px}
+    .navactive{font-size: 15px}
     .table{margin-top: 10px;}
-
     .box {padding: 40px;}
 
     #main-title{font-size: 35px; }
@@ -58,6 +58,7 @@
     .box {padding: 40px;}
     a{font-size: 15px}
     .table{margin-top: 20px;}
+    .navactive{font-size: 18px}
 
     #main-title{font-size: 35px; }
     #main-para{font-size: 20px; }
@@ -67,8 +68,9 @@
 
 h1 {
     color: #773A84;
-    font-weight: bold;
     float: left;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 900;
 }
 
 h2 {
@@ -76,6 +78,7 @@ h2 {
     font-weight: bold;
     margin-top: 18px;
     margin-bottom: 15px;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 
 caption{
@@ -85,6 +88,7 @@ caption{
     font-weight: bold;
     caption-side: top;
     padding-left: 10px;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 
 .card{  }
@@ -109,6 +113,9 @@ caption{
 
 .tickettext{
     text-align: center;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -125,19 +132,21 @@ caption{
     height: 50px;
     text-align: left;
     color: #9D9C94;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 
 .table td{
     border-top: none;
     height: 35px;
     text-align: left;
-    color: #332936
+    color: #332936;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 
 .col {  }
 
 .navactive{
-    color: black;
+    color: #332936;
 }
 
 .navactive:hover{
@@ -150,10 +159,18 @@ button{
     border: none;
     color: white;
     border-radius: 10px;
-
+    margin-bottom: 40px;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 p{
     color: #332936;
+    margin-bottom: 40px;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
+}
+
+a{
+    color: #332936;
+    font-family:"Roboto", "Helvetica Neue", sans-serif;
 }
 .shadow
 {
@@ -165,6 +182,9 @@ p{
             0 3em 3em -0.25em rgba(180,180,180,0.2);
 }
 
+.tablemargin{
+    margin-bottom: 40px;
+}
 
 
 .crop {
@@ -173,4 +193,8 @@ p{
 .crop img {
     height: 70px;
     width: auto;
+}
+
+.imgmargin{
+    margin-bottom: 40px;
 }
