@@ -191,8 +191,8 @@ a{
     overflow: visible;
 }
 .crop img {
-    height: 70px;
-    width: auto;
+    height: auto;
+    width: 170px;
 }
 
 .imgmargin{
